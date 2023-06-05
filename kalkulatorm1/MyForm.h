@@ -110,25 +110,6 @@ namespace kalkulatorm1 {
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::ToolStripMenuItem^ konversiTemperaturToolStripMenuItem;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	protected:
 
 	private:
@@ -679,7 +660,7 @@ namespace kalkulatorm1 {
 			this->showoperand->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->showoperand->Location = System::Drawing::Point(57, 61);
 			this->showoperand->Name = L"showoperand";
-			this->showoperand->Size = System::Drawing::Size(0, 17);
+			this->showoperand->Size = System::Drawing::Size(0, 16);
 			this->showoperand->TabIndex = 34;
 			this->showoperand->Click += gcnew System::EventHandler(this, &MyForm::Showoperand_Click);
 			// 
@@ -758,7 +739,7 @@ namespace kalkulatorm1 {
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
 			this->menuStrip1->RenderMode = System::Windows::Forms::ToolStripRenderMode::Professional;
-			this->menuStrip1->Size = System::Drawing::Size(1362, 28);
+			this->menuStrip1->Size = System::Drawing::Size(1362, 30);
 			this->menuStrip1->TabIndex = 40;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
@@ -770,27 +751,27 @@ namespace kalkulatorm1 {
 					this->keluarToolStripMenuItem
 			});
 			this->menuToolStripMenuItem->Name = L"menuToolStripMenuItem";
-			this->menuToolStripMenuItem->Size = System::Drawing::Size(58, 24);
+			this->menuToolStripMenuItem->Size = System::Drawing::Size(60, 26);
 			this->menuToolStripMenuItem->Text = L"Menu";
 			// 
 			// standarToolStripMenuItem
 			// 
 			this->standarToolStripMenuItem->Name = L"standarToolStripMenuItem";
-			this->standarToolStripMenuItem->Size = System::Drawing::Size(206, 26);
+			this->standarToolStripMenuItem->Size = System::Drawing::Size(214, 26);
 			this->standarToolStripMenuItem->Text = L"Kalkulator Standar";
 			this->standarToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::StandarToolStripMenuItem_Click);
 			// 
 			// sainsToolStripMenuItem
 			// 
 			this->sainsToolStripMenuItem->Name = L"sainsToolStripMenuItem";
-			this->sainsToolStripMenuItem->Size = System::Drawing::Size(206, 26);
+			this->sainsToolStripMenuItem->Size = System::Drawing::Size(214, 26);
 			this->sainsToolStripMenuItem->Text = L"Kalkulator Sains";
 			this->sainsToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::SainsToolStripMenuItem_Click);
 			// 
 			// lengkapToolStripMenuItem
 			// 
 			this->lengkapToolStripMenuItem->Name = L"lengkapToolStripMenuItem";
-			this->lengkapToolStripMenuItem->Size = System::Drawing::Size(206, 26);
+			this->lengkapToolStripMenuItem->Size = System::Drawing::Size(214, 26);
 			this->lengkapToolStripMenuItem->Text = L"Lengkap";
 			// 
 			// HistoryToolStripMenuItem
@@ -798,28 +779,28 @@ namespace kalkulatorm1 {
 			this->HistoryToolStripMenuItem->Checked = true;
 			this->HistoryToolStripMenuItem->CheckState = System::Windows::Forms::CheckState::Checked;
 			this->HistoryToolStripMenuItem->Name = L"HistoryToolStripMenuItem";
-			this->HistoryToolStripMenuItem->Size = System::Drawing::Size(206, 26);
+			this->HistoryToolStripMenuItem->Size = System::Drawing::Size(214, 26);
 			this->HistoryToolStripMenuItem->Text = L"History";
 			this->HistoryToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::HistoryToolStripMenuItem_Click);
 			// 
 			// HistoryToolStripMenuItem1
 			// 
 			this->HistoryToolStripMenuItem1->Name = L"HistoryToolStripMenuItem1";
-			this->HistoryToolStripMenuItem1->Size = System::Drawing::Size(206, 26);
+			this->HistoryToolStripMenuItem1->Size = System::Drawing::Size(214, 26);
 			this->HistoryToolStripMenuItem1->Text = L"History";
 			this->HistoryToolStripMenuItem1->Click += gcnew System::EventHandler(this, &MyForm::HistoryToolStripMenuItem1_Click);
 			// 
 			// keluarToolStripMenuItem
 			// 
 			this->keluarToolStripMenuItem->Name = L"keluarToolStripMenuItem";
-			this->keluarToolStripMenuItem->Size = System::Drawing::Size(206, 26);
+			this->keluarToolStripMenuItem->Size = System::Drawing::Size(214, 26);
 			this->keluarToolStripMenuItem->Text = L"Keluar";
 			this->keluarToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::KeluarToolStripMenuItem_Click);
 			// 
 			// konversiTemperaturToolStripMenuItem
 			// 
 			this->konversiTemperaturToolStripMenuItem->Name = L"konversiTemperaturToolStripMenuItem";
-			this->konversiTemperaturToolStripMenuItem->Size = System::Drawing::Size(165, 24);
+			this->konversiTemperaturToolStripMenuItem->Size = System::Drawing::Size(167, 26);
 			this->konversiTemperaturToolStripMenuItem->Text = L"Konverter Temperatur";
 			this->konversiTemperaturToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::KonversiTemperaturToolStripMenuItem_Click);
 			// 
@@ -891,7 +872,7 @@ namespace kalkulatorm1 {
 			this->groupBox1->Controls->Add(this->radioButton2);
 			this->groupBox1->Controls->Add(this->radioButton1);
 			this->groupBox1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->groupBox1->Font = (gcnew System::Drawing::Font(L"Lucida Calligraphy", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->groupBox1->Font = (gcnew System::Drawing::Font(L"Lucida Console", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->groupBox1->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->groupBox1->Location = System::Drawing::Point(905, 61);
@@ -899,7 +880,7 @@ namespace kalkulatorm1 {
 			this->groupBox1->Size = System::Drawing::Size(427, 548);
 			this->groupBox1->TabIndex = 46;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Konverter Temperatur";
+			this->groupBox1->Text = L"Temperatur";
 			// 
 			// label2
 			// 
@@ -976,7 +957,7 @@ namespace kalkulatorm1 {
 				static_cast<System::Byte>(0)));
 			this->radioButton3->Location = System::Drawing::Point(43, 250);
 			this->radioButton3->Name = L"radioButton3";
-			this->radioButton3->Size = System::Drawing::Size(102, 32);
+			this->radioButton3->Size = System::Drawing::Size(101, 31);
 			this->radioButton3->TabIndex = 2;
 			this->radioButton3->TabStop = true;
 			this->radioButton3->Text = L"Kelvin";
@@ -990,7 +971,7 @@ namespace kalkulatorm1 {
 				static_cast<System::Byte>(0)));
 			this->radioButton2->Location = System::Drawing::Point(43, 198);
 			this->radioButton2->Name = L"radioButton2";
-			this->radioButton2->Size = System::Drawing::Size(154, 32);
+			this->radioButton2->Size = System::Drawing::Size(151, 31);
 			this->radioButton2->TabIndex = 1;
 			this->radioButton2->TabStop = true;
 			this->radioButton2->Text = L"Fahrenheit";
@@ -1004,7 +985,7 @@ namespace kalkulatorm1 {
 				static_cast<System::Byte>(0)));
 			this->radioButton1->Location = System::Drawing::Point(43, 144);
 			this->radioButton1->Name = L"radioButton1";
-			this->radioButton1->Size = System::Drawing::Size(119, 32);
+			this->radioButton1->Size = System::Drawing::Size(117, 31);
 			this->radioButton1->TabIndex = 0;
 			this->radioButton1->TabStop = true;
 			this->radioButton1->Text = L"Celcius";
@@ -1288,108 +1269,232 @@ private: System::Void HistoryToolStripMenuItem1_Click(System::Object^ sender, Sy
 }
 private: System::Void Button12_Click(System::Object^ sender, System::EventArgs^ e) {
 	//SinH
-
-	a = Double::Parse(output->Text);
-	showoperand->Text = System::Convert::ToString("SinH" + "(" + (output->Text) + ")");
-	a = Math::Sinh(a);
-	output->Text = System::Convert::ToString(a);
+	try {
+		a = Double::Parse(output->Text);
+		showoperand->Text = System::Convert::ToString("SinH" + "(" + (output->Text) + ")");
+		a = Math::Sinh(a);
+		output->Text = System::Convert::ToString(a);
+	}
+	catch (FormatException^) {
+		// Handle the case when the input is not a valid number
+		MessageBox::Show("Invalid input. Please enter a valid number.");
+	}
+	catch (...) {
+		// Handle any other unexpected errors
+		MessageBox::Show("An error occurred while processing the input.");
+	}
 	
 }
 private: System::Void Button14_Click(System::Object^ sender, System::EventArgs^ e) {
 	//CosH
+	try {
+		a = Double::Parse(output->Text);
+		showoperand->Text = System::Convert::ToString("CosH" + "(" + (output->Text) + ")");
+		a = Math::Cosh(a);
+		output->Text = System::Convert::ToString(a);
 
-	a = Double::Parse(output->Text);
-	showoperand->Text = System::Convert::ToString("CosH" + "(" + (output->Text) + ")");
-	a = Math::Cosh(a);
-	output->Text = System::Convert::ToString(a);
-	
-	showoperand->Text = "";
+		showoperand->Text = "";
+	}
+	catch (FormatException^) {
+		// Handle the case when the input is not a valid number
+		MessageBox::Show("Invalid input. Please enter a valid number.");
+	}
+	catch (...) {
+		// Handle any other unexpected errors
+		MessageBox::Show("An error occurred while processing the input.");
+	}
 }
 private: System::Void Button11_Click(System::Object^ sender, System::EventArgs^ e) {
 	//Sin
-
-	a = Double::Parse(output->Text);
-	showoperand->Text = System::Convert::ToString("Sind" + "(" + (output->Text) + ")");
-	a = Math::Sin(a);
-	output->Text = System::Convert::ToString(a);
+	try {
+		a = Double::Parse(output->Text);
+		showoperand->Text = System::Convert::ToString("Sind" + "(" + (output->Text) + ")");
+		a = Math::Sin(a);
+		output->Text = System::Convert::ToString(a);
+	}
+	catch (FormatException^) {
+		// Handle the case when the input is not a valid number
+		MessageBox::Show("Invalid input. Please enter a valid number.");
+	}
+	catch (...) {
+		// Handle any other unexpected errors
+		MessageBox::Show("An error occurred while processing the input.");
+	}
 	
 }
 private: System::Void Button13_Click(System::Object^ sender, System::EventArgs^ e) {
 	//Cos
-
-	a = Double::Parse(output->Text);
-	showoperand->Text = System::Convert::ToString("Cosd" + "(" + (output->Text) + ")");
-	a = Math::Cos(a);
-	output->Text = System::Convert::ToString(a);
+	try {
+		a = Double::Parse(output->Text);
+		showoperand->Text = System::Convert::ToString("Cosd" + "(" + (output->Text) + ")");
+		a = Math::Cos(a);
+		output->Text = System::Convert::ToString(a);
+	}
+	catch (FormatException^) {
+		// Handle the case when the input is not a valid number
+		MessageBox::Show("Invalid input. Please enter a valid number.");
+	}
+	catch (...) {
+		// Handle any other unexpected errors
+		MessageBox::Show("An error occurred while processing the input.");
+	}
 	
 }
 private: System::Void Button21_Click(System::Object^ sender, System::EventArgs^ e) {
 	//Dec
-	int a = int::Parse(output->Text);
-	output->Text = System::Convert::ToString(a);
-	listBox1->Items->Add(System::Convert::ToString(output->Text));
+	try {
+		int a = int::Parse(output->Text);
+		output->Text = System::Convert::ToString(a);
+		listBox1->Items->Add(System::Convert::ToString(output->Text));
+	}
+	catch (FormatException^) {
+		// Handle the case when the input is not a valid number
+		MessageBox::Show("Invalid input. Please enter a valid number.");
+	}
+	catch (...) {
+		// Handle any other unexpected errors
+		MessageBox::Show("An error occurred while processing the input.");
+	}
 }
 private: System::Void Button20_Click(System::Object^ sender, System::EventArgs^ e) {
 	//Log
-	a = Double::Parse(output->Text);
-	showoperand->Text = System::Convert::ToString("Log" + "(" + (output->Text) + ")");
-	a = Math::Log(a);
-	output->Text = System::Convert::ToString(a);
+	try {
+		a = Double::Parse(output->Text);
+		showoperand->Text = System::Convert::ToString("Log" + "(" + (output->Text) + ")");
+		a = Math::Log(a);
+		output->Text = System::Convert::ToString(a);
+	}
+	catch (FormatException^) {
+		// Handle the case when the input is not a valid number
+		MessageBox::Show("Invalid input. Please enter a valid number.");
+	}
+	catch (...) {
+		// Handle any other unexpected errors
+		MessageBox::Show("An error occurred while processing the input.");
+	}
 	
 }
 private: System::Void Button25_Click(System::Object^ sender, System::EventArgs^ e) {
 	//Bin
-	int a = int::Parse(output->Text);
-	output->Text = System::Convert::ToString(a, 2);
-	showoperand->Text = "";
+	try {
+		int a = int::Parse(output->Text);
+		output->Text = System::Convert::ToString(a, 2);
+		showoperand->Text = "";
+	}
+	catch (FormatException^) {
+		// Handle the case when the input is not a valid number
+		MessageBox::Show("Invalid input. Please enter a valid number.");
+	}
+	catch (...) {
+		// Handle any other unexpected errors
+		MessageBox::Show("An error occurred while processing the input.");
+	}
 
 }
 private: System::Void Button15_Click(System::Object^ sender, System::EventArgs^ e) {
 	//Tan
-
-	a = double::Parse(output->Text);
-	showoperand->Text = System::Convert::ToString("Tan" + "(" + (output->Text) + ")");
-	a = Math::Tan(a);
-	output->Text = System::Convert::ToString(a);
+	try {
+		a = double::Parse(output->Text);
+		showoperand->Text = System::Convert::ToString("Tan" + "(" + (output->Text) + ")");
+		a = Math::Tan(a);
+		output->Text = System::Convert::ToString(a);
+	}
+	catch (FormatException^) {
+		// Handle the case when the input is not a valid number
+		MessageBox::Show("Invalid input. Please enter a valid number.");
+	}
+	catch (...) {
+		// Handle any other unexpected errors
+		MessageBox::Show("An error occurred while processing the input.");
+	}
 	
 }
 private: System::Void Button16_Click(System::Object^ sender, System::EventArgs^ e) {
 	//TanH
-
-	a = double::Parse(output->Text);
-	showoperand->Text = System::Convert::ToString("TanH" + "(" + (output->Text) + ")");
-	a = Math::Tanh(a);
-	output->Text = System::Convert::ToString(a);
+	try {
+		a = double::Parse(output->Text);
+		showoperand->Text = System::Convert::ToString("TanH" + "(" + (output->Text) + ")");
+		a = Math::Tanh(a);
+		output->Text = System::Convert::ToString(a);
+	}
+	catch (FormatException^) {
+		// Handle the case when the input is not a valid number
+		MessageBox::Show("Invalid input. Please enter a valid number.");
+	}
+	catch (...) {
+		// Handle any other unexpected errors
+		MessageBox::Show("An error occurred while processing the input.");
+	}
 	
 }
 private: System::Void Button23_Click(System::Object^ sender, System::EventArgs^ e) {
 	//Hex
-	int a = int::Parse(output->Text);
-	output->Text = System::Convert::ToString(a, 16);
-	showoperand->Text = "";
+	try {
+		int a = int::Parse(output->Text);
+		output->Text = System::Convert::ToString(a, 16);
+		showoperand->Text = "";
+	}
+	catch (FormatException^) {
+		// Handle the case when the input is not a valid number
+		MessageBox::Show("Invalid input. Please enter a valid number.");
+	}
+	catch (...) {
+		// Handle any other unexpected errors
+		MessageBox::Show("An error occurred while processing the input.");
+	}
 
 }
 private: System::Void Button22_Click(System::Object^ sender, System::EventArgs^ e) {
 	//Sqrt
-	a = Double::Parse(output->Text);
-	showoperand->Text = System::Convert::ToString("Sqrt" + "(" + (output->Text) + ")");
-	a = Math::Sqrt(a);
-	output->Text = System::Convert::ToString(a);
+	try {
+		a = Double::Parse(output->Text);
+		showoperand->Text = System::Convert::ToString("Sqrt" + "(" + (output->Text) + ")");
+		a = Math::Sqrt(a);
+		output->Text = System::Convert::ToString(a);
+	}
+	catch (FormatException^) {
+		// Handle the case when the input is not a valid number
+		MessageBox::Show("Invalid input. Please enter a valid number.");
+	}
+	catch (...) {
+		// Handle any other unexpected errors
+		MessageBox::Show("An error occurred while processing the input.");
+	}
 	
 }
 private: System::Void Button24_Click(System::Object^ sender, System::EventArgs^ e) {
 	//Octal
-	int a = int::Parse(output->Text);
-	output->Text = System::Convert::ToString(a, 8);
-	showoperand->Text = "";
+	try {
+		int a = int::Parse(output->Text);
+		output->Text = System::Convert::ToString(a, 8);
+		showoperand->Text = "";
+	}
+	catch (FormatException^) {
+		// Handle the case when the input is not a valid number
+		MessageBox::Show("Invalid input. Please enter a valid number.");
+	}
+	catch (...) {
+		// Handle any other unexpected errors
+		MessageBox::Show("An error occurred while processing the input.");
+	}
 
 }
 private: System::Void Button18_Click(System::Object^ sender, System::EventArgs^ e) {
 	//Cosec
-	a = Double::Parse(output->Text);
-	showoperand->Text = System::Convert::ToString("Cosec" + "(" + (output->Text) + ")");
-	a = 1/Math::Sin(a);
-	output->Text = System::Convert::ToString(a);
+	try {
+		a = Double::Parse(output->Text);
+		showoperand->Text = System::Convert::ToString("Cosec" + "(" + (output->Text) + ")");
+		a = 1 / Math::Sin(a);
+		output->Text = System::Convert::ToString(a);
+	}
+	catch (FormatException^) {
+		// Handle the case when the input is not a valid number
+		MessageBox::Show("Invalid input. Please enter a valid number.");
+	}
+	catch (...) {
+		// Handle any other unexpected errors
+		MessageBox::Show("An error occurred while processing the input.");
+	}
 }
 
 private: System::Void Button32_Click(System::Object^ sender, System::EventArgs^ e) {
