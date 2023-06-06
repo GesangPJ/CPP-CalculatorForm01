@@ -95,19 +95,6 @@ namespace kalkulatorm1 {
 	private: System::Windows::Forms::Button^ button34;
 	private: System::Windows::Forms::Button^ button35;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 	private: System::Windows::Forms::ToolStripMenuItem^ konversiTemperaturToolStripMenuItem;
 
 	protected:
@@ -1006,12 +993,8 @@ private: System::Void aritmatika(System::Object^ sender, System::EventArgs^ e) {
 	ioperator = op->Text;
 	showoperand->Text = System::Convert::ToString(pilihansatu) + ""+ ioperator;
 
-
-
 }
 private: System::Void Showoperand_Click(System::Object^ sender, System::EventArgs^ e) {
-
-
 
 }
 private: System::Void Button29_Click(System::Object^ sender, System::EventArgs^ e) {
