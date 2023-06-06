@@ -1,4 +1,4 @@
-# CPP-CalculatorForm01
+# SIMPLE CALCULATOR USING C++
 A Calculator Software using C++ Programming Language, first build in Visual Studio 2019
 
 ## Changelog 
