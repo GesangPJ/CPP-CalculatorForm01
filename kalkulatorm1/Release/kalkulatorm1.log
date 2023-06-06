@@ -1,3 +1,4 @@
 ﻿  MyForm.cpp
-C:\Users\Gesang Paudra Jaya\Source\Repos\kalkulatorm1\kalkulatorm1\MyForm.cpp(8): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
-C:\Users\Gesang Paudra Jaya\Source\Repos\kalkulatorm1\kalkulatorm1\MyForm.cpp(14): fatal error C1004: unexpected end-of-file found
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  kalkulatorm1.vcxproj -> C:\Users\Gesang Paudra Jaya\source\repos\CPP-CalculatorForm01\Release\GT-Kalkulator.exe
