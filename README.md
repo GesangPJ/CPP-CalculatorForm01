@@ -18,4 +18,4 @@ A Calculator Software using C++ Programming Language, first build in Visual Stud
 - Initial Release
 
 ## Known Bugs :
-- Program only can do one-time calculation, you cannot do multiple calculation at one, like 5 x 5 + 2, program will give answer **7** not **12**
+- Program only can do one-time calculation, you cannot do multiple calculation at once, like 5 x 5 + 2, program will give answer **7** not **12**
