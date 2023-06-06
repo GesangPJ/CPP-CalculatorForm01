@@ -890,7 +890,7 @@ namespace kalkulatorm1 {
 			this->ForeColor = System::Drawing::SystemColors::ControlLightLight;
 			this->MainMenuStrip = this->menuStrip1;
 			this->Name = L"MyForm";
-			this->Text = L"Kalkulator Plus V.1.2.5.5 By GPAUDRA";
+			this->Text = L"Kalkulator Plus V.1.2.0.7 By GPAUDRA";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
