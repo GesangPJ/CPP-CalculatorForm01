@@ -94,20 +94,20 @@ namespace kalkulatorm1 {
 	private: System::Windows::Forms::Button^ button33;
 	private: System::Windows::Forms::Button^ button34;
 	private: System::Windows::Forms::Button^ button35;
-	private: System::Windows::Forms::GroupBox^ groupBox1;
-	private: System::Windows::Forms::RadioButton^ radioButton3;
-	private: System::Windows::Forms::RadioButton^ radioButton2;
-	private: System::Windows::Forms::RadioButton^ radioButton1;
 
-	private: System::Windows::Forms::Button^ button36;
-	private: System::Windows::Forms::Button^ resetsuhu;
 
-	private: System::Windows::Forms::TextBox^ hasilsuhu;
 
-	private: System::Windows::Forms::TextBox^ inputsuhu;
 
-	private: System::Windows::Forms::Label^ label2;
-	private: System::Windows::Forms::Label^ label1;
+
+
+
+
+
+
+
+
+
+
 	private: System::Windows::Forms::ToolStripMenuItem^ konversiTemperaturToolStripMenuItem;
 
 	protected:
@@ -177,18 +177,7 @@ namespace kalkulatorm1 {
 			this->button33 = (gcnew System::Windows::Forms::Button());
 			this->button34 = (gcnew System::Windows::Forms::Button());
 			this->button35 = (gcnew System::Windows::Forms::Button());
-			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
-			this->label2 = (gcnew System::Windows::Forms::Label());
-			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->hasilsuhu = (gcnew System::Windows::Forms::TextBox());
-			this->inputsuhu = (gcnew System::Windows::Forms::TextBox());
-			this->resetsuhu = (gcnew System::Windows::Forms::Button());
-			this->button36 = (gcnew System::Windows::Forms::Button());
-			this->radioButton3 = (gcnew System::Windows::Forms::RadioButton());
-			this->radioButton2 = (gcnew System::Windows::Forms::RadioButton());
-			this->radioButton1 = (gcnew System::Windows::Forms::RadioButton());
 			this->menuStrip1->SuspendLayout();
-			this->groupBox1->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// output
@@ -739,7 +728,7 @@ namespace kalkulatorm1 {
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
 			this->menuStrip1->RenderMode = System::Windows::Forms::ToolStripRenderMode::Professional;
-			this->menuStrip1->Size = System::Drawing::Size(1362, 30);
+			this->menuStrip1->Size = System::Drawing::Size(865, 28);
 			this->menuStrip1->TabIndex = 40;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
@@ -751,7 +740,7 @@ namespace kalkulatorm1 {
 					this->keluarToolStripMenuItem
 			});
 			this->menuToolStripMenuItem->Name = L"menuToolStripMenuItem";
-			this->menuToolStripMenuItem->Size = System::Drawing::Size(60, 26);
+			this->menuToolStripMenuItem->Size = System::Drawing::Size(60, 24);
 			this->menuToolStripMenuItem->Text = L"Menu";
 			// 
 			// standarToolStripMenuItem
@@ -800,7 +789,7 @@ namespace kalkulatorm1 {
 			// konversiTemperaturToolStripMenuItem
 			// 
 			this->konversiTemperaturToolStripMenuItem->Name = L"konversiTemperaturToolStripMenuItem";
-			this->konversiTemperaturToolStripMenuItem->Size = System::Drawing::Size(167, 26);
+			this->konversiTemperaturToolStripMenuItem->Size = System::Drawing::Size(167, 24);
 			this->konversiTemperaturToolStripMenuItem->Text = L"Konverter Temperatur";
 			this->konversiTemperaturToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::KonversiTemperaturToolStripMenuItem_Click);
 			// 
@@ -860,146 +849,13 @@ namespace kalkulatorm1 {
 			this->button35->UseVisualStyleBackColor = true;
 			this->button35->Click += gcnew System::EventHandler(this, &MyForm::Button35_Click);
 			// 
-			// groupBox1
-			// 
-			this->groupBox1->Controls->Add(this->label2);
-			this->groupBox1->Controls->Add(this->label1);
-			this->groupBox1->Controls->Add(this->hasilsuhu);
-			this->groupBox1->Controls->Add(this->inputsuhu);
-			this->groupBox1->Controls->Add(this->resetsuhu);
-			this->groupBox1->Controls->Add(this->button36);
-			this->groupBox1->Controls->Add(this->radioButton3);
-			this->groupBox1->Controls->Add(this->radioButton2);
-			this->groupBox1->Controls->Add(this->radioButton1);
-			this->groupBox1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->groupBox1->Font = (gcnew System::Drawing::Font(L"Lucida Console", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->groupBox1->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->groupBox1->Location = System::Drawing::Point(905, 61);
-			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Size = System::Drawing::Size(427, 548);
-			this->groupBox1->TabIndex = 46;
-			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Temperatur";
-			// 
-			// label2
-			// 
-			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Century Gothic", 10.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label2->Location = System::Drawing::Point(174, 345);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(53, 19);
-			this->label2->TabIndex = 8;
-			this->label2->Text = L"Hasil:";
-			// 
-			// label1
-			// 
-			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Century Gothic", 10.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label1->Location = System::Drawing::Point(39, 96);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(323, 19);
-			this->label1->TabIndex = 7;
-			this->label1->Text = L"Masukkan Nilai yang akan dikonversi:";
-			// 
-			// hasilsuhu
-			// 
-			this->hasilsuhu->Font = (gcnew System::Drawing::Font(L"Lucida Console", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->hasilsuhu->Location = System::Drawing::Point(250, 339);
-			this->hasilsuhu->Name = L"hasilsuhu";
-			this->hasilsuhu->Size = System::Drawing::Size(139, 30);
-			this->hasilsuhu->TabIndex = 6;
-			this->hasilsuhu->TextChanged += gcnew System::EventHandler(this, &MyForm::Hasilsuhu_TextChanged);
-			// 
-			// inputsuhu
-			// 
-			this->inputsuhu->Font = (gcnew System::Drawing::Font(L"Lucida Console", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->inputsuhu->Location = System::Drawing::Point(250, 133);
-			this->inputsuhu->Name = L"inputsuhu";
-			this->inputsuhu->Size = System::Drawing::Size(139, 30);
-			this->inputsuhu->TabIndex = 5;
-			this->inputsuhu->TextChanged += gcnew System::EventHandler(this, &MyForm::inputsuhu_TextChanged);
-			// 
-			// resetsuhu
-			// 
-			this->resetsuhu->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->resetsuhu->Font = (gcnew System::Drawing::Font(L"Consolas", 10.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->resetsuhu->Location = System::Drawing::Point(262, 405);
-			this->resetsuhu->Name = L"resetsuhu";
-			this->resetsuhu->Size = System::Drawing::Size(113, 33);
-			this->resetsuhu->TabIndex = 4;
-			this->resetsuhu->Text = L"Reset";
-			this->resetsuhu->UseVisualStyleBackColor = true;
-			this->resetsuhu->Click += gcnew System::EventHandler(this, &MyForm::Button37_Click);
-			// 
-			// button36
-			// 
-			this->button36->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button36->Font = (gcnew System::Drawing::Font(L"Consolas", 10.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->button36->Location = System::Drawing::Point(262, 184);
-			this->button36->Name = L"button36";
-			this->button36->Size = System::Drawing::Size(113, 33);
-			this->button36->TabIndex = 3;
-			this->button36->Text = L"Konversi";
-			this->button36->UseVisualStyleBackColor = true;
-			this->button36->Click += gcnew System::EventHandler(this, &MyForm::Button36_Click);
-			// 
-			// radioButton3
-			// 
-			this->radioButton3->AutoSize = true;
-			this->radioButton3->Font = (gcnew System::Drawing::Font(L"Century Gothic", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->radioButton3->Location = System::Drawing::Point(43, 250);
-			this->radioButton3->Name = L"radioButton3";
-			this->radioButton3->Size = System::Drawing::Size(101, 31);
-			this->radioButton3->TabIndex = 2;
-			this->radioButton3->TabStop = true;
-			this->radioButton3->Text = L"Kelvin";
-			this->radioButton3->UseVisualStyleBackColor = true;
-			this->radioButton3->CheckedChanged += gcnew System::EventHandler(this, &MyForm::RadioButton3_CheckedChanged);
-			// 
-			// radioButton2
-			// 
-			this->radioButton2->AutoSize = true;
-			this->radioButton2->Font = (gcnew System::Drawing::Font(L"Century Gothic", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->radioButton2->Location = System::Drawing::Point(43, 198);
-			this->radioButton2->Name = L"radioButton2";
-			this->radioButton2->Size = System::Drawing::Size(151, 31);
-			this->radioButton2->TabIndex = 1;
-			this->radioButton2->TabStop = true;
-			this->radioButton2->Text = L"Fahrenheit";
-			this->radioButton2->UseVisualStyleBackColor = true;
-			this->radioButton2->CheckedChanged += gcnew System::EventHandler(this, &MyForm::RadioButton2_CheckedChanged);
-			// 
-			// radioButton1
-			// 
-			this->radioButton1->AutoSize = true;
-			this->radioButton1->Font = (gcnew System::Drawing::Font(L"Century Gothic", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->radioButton1->Location = System::Drawing::Point(43, 144);
-			this->radioButton1->Name = L"radioButton1";
-			this->radioButton1->Size = System::Drawing::Size(117, 31);
-			this->radioButton1->TabIndex = 0;
-			this->radioButton1->TabStop = true;
-			this->radioButton1->Text = L"Celcius";
-			this->radioButton1->UseVisualStyleBackColor = true;
-			this->radioButton1->CheckedChanged += gcnew System::EventHandler(this, &MyForm::RadioButton1_CheckedChanged);
-			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->ClientSize = System::Drawing::Size(1362, 657);
-			this->Controls->Add(this->groupBox1);
+			this->ClientSize = System::Drawing::Size(865, 657);
 			this->Controls->Add(this->button35);
 			this->Controls->Add(this->button34);
 			this->Controls->Add(this->button33);
@@ -1051,8 +907,6 @@ namespace kalkulatorm1 {
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
-			this->groupBox1->ResumeLayout(false);
-			this->groupBox1->PerformLayout();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -1521,7 +1375,7 @@ private: System::Void Button35_Click(System::Object^ sender, System::EventArgs^ 
 private: System::Void Button36_Click(System::Object^ sender, System::EventArgs^ e) {
 
 	//konversi suhu
-
+	/*
 	switch (ioperation) {
 
 	case'C':
@@ -1542,7 +1396,7 @@ private: System::Void Button36_Click(System::Object^ sender, System::EventArgs^ 
 		hasilsuhu->Text = (((((9 * ikelvin) / 5) + 32) + 273.15).ToString());
 		break;
 	}
-
+	*/
 
 }
 private: System::Void RadioButton1_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
@@ -1563,11 +1417,11 @@ private: System::Void KonversiTemperaturToolStripMenuItem_Click(System::Object^ 
 private: System::Void Button37_Click(System::Object^ sender, System::EventArgs^ e) {
 	//Reset konverter temperatur
 
-	inputsuhu->Text = "";
-	hasilsuhu->Text = "";
-	radioButton1->Checked = false;
-	radioButton2->Checked = false;
-	radioButton3->Checked = false;
+	//inputsuhu->Text = "";
+	//hasilsuhu->Text = "";
+	//radioButton1->Checked = false;
+	//radioButton2->Checked = false;
+	//radioButton3->Checked = false;
 
 }
 private: System::Void inputsuhu_TextChanged(System::Object^ sender, System::EventArgs^ e) {
