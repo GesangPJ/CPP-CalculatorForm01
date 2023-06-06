@@ -789,8 +789,8 @@ namespace kalkulatorm1 {
 			// konversiTemperaturToolStripMenuItem
 			// 
 			this->konversiTemperaturToolStripMenuItem->Name = L"konversiTemperaturToolStripMenuItem";
-			this->konversiTemperaturToolStripMenuItem->Size = System::Drawing::Size(167, 24);
-			this->konversiTemperaturToolStripMenuItem->Text = L"Konverter Temperatur";
+			this->konversiTemperaturToolStripMenuItem->Size = System::Drawing::Size(118, 24);
+			this->konversiTemperaturToolStripMenuItem->Text = L"More Function";
 			this->konversiTemperaturToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::KonversiTemperaturToolStripMenuItem_Click);
 			// 
 			// button32
@@ -903,7 +903,7 @@ namespace kalkulatorm1 {
 			this->ForeColor = System::Drawing::SystemColors::ControlLightLight;
 			this->MainMenuStrip = this->menuStrip1;
 			this->Name = L"MyForm";
-			this->Text = L"Kalkulator Plus MKIII By GesangPJ";
+			this->Text = L"Kalkulator Plus V.1.2.5.5 By GPAUDRA";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
