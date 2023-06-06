@@ -16,3 +16,6 @@ A Calculator Software using C++ Programming Language, first build in Visual Stud
 
 #### V.1.0.0.1 Initial Release
 - Initial Release
+
+## Known Bugs :
+- Program only can do one-time calculation, you cannot do multiple calculation at one, like 5 x 5 + 2, program will give answer **7** not **12**
