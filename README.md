@@ -10,8 +10,8 @@ A Calculator Software using C++ Programming Language, first build in Visual Stud
 - Add limited scientific function (Sin, Cos, Tan, etc..)
 
 ### V.1.2.0.7
+- Upgrade to Visual Studio 2022
 - Add Error Handling
 - Cleanup code
 - Remove Temperature converter to add later in major release (V.2.0)
-- Support x86/x64
 - Fix bugs
